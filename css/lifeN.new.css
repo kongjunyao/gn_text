@@ -1,0 +1,304 @@
+/*主体部分 - titBox*/
+
+body {
+  cursor: url(../images/lifeN/shou.ico), default;
+}
+
+.w1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: #555;
+  text-decoration: none;
+}
+
+.main {
+  padding-bottom: 50px;
+  background: #fff;
+}
+
+.titBox {
+  margin: 80px auto;
+  text-align: center;
+  background: url(../images/lifeN/icon_01.png) no-repeat center top;
+  padding-top: 125px;
+}
+
+.titBox h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.titBox p {
+  font-size: 13px;
+  line-height: 30px;
+}
+
+/*主体-大图部分*/
+
+.imgBox {
+  width: 100%;
+  position: relative;
+}
+
+.imgBox .item {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.imgBox .item a {
+  text-align: center;
+  font-size: 13px;
+  display: block;
+  color: #222;
+}
+
+.imgBox h2 {
+  overflow: hidden;
+}
+
+.imgBox .pad a em {
+  display: inline-block;
+  width: 0%;
+  height: 3px;
+  background: #c70019;
+  transition: all 1s;
+}
+
+.imgBox .t2 .pad a:hover em {
+  width: 60%;
+}
+
+.imgBox .item .pad a:hover em {
+  width: 60%;
+}
+
+.imgBox .item .pad {
+  width: 180px;
+  height: 45px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-left: -90px;
+  margin-top: -90px;
+  display: block;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 21px;
+  color: #222;
+}
+
+.imgBox .item h2 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.imgBox .item a {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  display: block;
+}
+
+.imgBox .t2 {
+  left: 50%;
+}
+
+/*img {
+    vertical-align: middle;
+}*/
+
+/*主体-详情部分*/
+
+.infoBox {
+  margin: 80px 0;
+}
+
+.infoBox .tab {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.infoBox .tab em {
+  display: inline-block;
+  width: 0%;
+  height: 3px;
+  background: #c70019;
+  transition: all 1s;
+}
+
+.infoBox .tab .tab_1:hover em {
+  width: 100%;
+}
+
+.infoBox .tab .tab_2:hover em {
+  width: 100%;
+}
+
+.infoBox .tab .tab_1 {
+  background-image: url("../images/lifeN/icon_04.png");
+  background-size: 35px;
+}
+
+.infoBox .tab .tab_2 {
+  background-image: url("../images/lifeN/icon_05.png");
+  text-indent: 42px;
+  background-size: 34px;
+}
+
+.infoBox .tab span {
+  height: 30px;
+  line-height: 30px;
+  width: 122px;
+  display: inline-block;
+  font-size: 14px;
+  color: #222;
+  background-position: left 2px;
+  background-repeat: no-repeat;
+  text-indent: 30px;
+  margin-right: 36px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+.tabMain {
+  width: 1236px;
+  position: relative;
+  left: -18px;
+  display: block;
+}
+
+.tabMain2 {
+  display: none;
+}
+
+.tabMain .tm li {
+  float: left;
+  width: 376px;
+  margin: 0 18px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.tabMain .tm li .info {
+  padding-top: 12px;
+}
+
+.tabMain .tm li .info a {
+  /*摸上去不要变颜色*/
+}
+
+.tabMain .tm li .info h3 {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  margin: 6px 0 15px 0;
+}
+
+.tabMain .tm li .info .tag span {
+  height: 23px;
+  line-height: 23px;
+  padding: 0 12px 0 15px;
+  border: 1px solid #888;
+  color: #666;
+  font-size: 12px;
+  background: url(../images/lifeN/icon_06.png) no-repeat 10px center;
+  display: inline-block;
+  float: left;
+  text-indent: 5px;
+}
+
+/*margin youwenti*/
+
+.tabMain .tm li .icon.icon1 {
+  background: url(../images/lifeN/tm2_icon01.png) no-repeat center center;
+  background-size: 100% auto;
+}
+
+.tabMain .tm li .icon {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  width: 33px;
+  height: 54px;
+}
+
+.tabMain .tm li .icon.icon2 {
+  background: url(../images/lifeN/tm2_icon02.png) no-repeat center center;
+  background-size: 100% auto;
+}
+
+.tabMain .tm li .icon.icon3 {
+  background: url(../images/lifeN/tm2_icon03.png) no-repeat center center;
+  background-size: 100% auto;
+}
+
+.tabMain .tm li .icon.icon4 {
+  background: url(../images/lifeN/tm2_icon04.png) no-repeat center center;
+  background-size: 100% auto;
+}
+
+.tabMain .tm li .icon.icon5 {
+  background: url(../images/lifeN/tm2_icon05.png) no-repeat center center;
+  background-size: 100% auto;
+}
+
+.tabMain .tm li .icon.icon6 {
+  background: url(../images/lifeN/tm2_icon06.png) no-repeat center center;
+  background-size: 100% auto;
+}
+
+/*.imgBox .item {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.imgBox .item a {
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    color: #222;
+}
+
+.imgBox .item .pad {
+    width: 180px;
+    height: 45px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -90px;
+    margin-top: -90px;
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    color: #222;
+}
+
+.imgBox .item .pad h2 {
+    font-size: 21px;
+}
+
+.imgBox t2 {
+    left: 50%;
+}
+
+.imgBox img {
+    vertical-align: middle;
+}*/
+
+/*右下角返回顶部按钮*/
+
+.r_nav {
+  position: fixed;
+  right: 50px;
+  bottom: 80px;
+}

@@ -1,0 +1,524 @@
+/* 
+  create Time: 20180904;
+  author: xutonze;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    width:100%;
+    overflow-x: hidden;
+}
+.w1200{
+    width: 1200px;
+    margin: auto;
+}
+.public-head-cent h1{
+    float: left;
+    height: 60px;
+    width: 120px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+    font-size: 0;
+    position: absolute;
+    z-index: 10;
+}
+.main{
+	padding-bottom: 0;
+}
+
+.main .main-head{
+	height: 800px;
+	width: 100%;
+	position: relative;
+}
+.main-head .info{
+
+	/* background: url(../images/icon-serve.png) no-repeat center top; */
+    padding-top: 170px;
+    text-align: center;
+    width: 230px;
+    height: 240px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -115px;
+    margin-top: -300px;
+    z-index: 4;
+}
+.main-head .info img {
+    margin-bottom:20px;
+}
+.main-head .info h2{
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.main-head .info p{
+	font-size: 14px;
+    color: #666;
+    margin-top:10px;
+}
+.main-list1{
+height: 400px;
+margin-top:60px;
+}
+
+
+.main-list1  .left{
+height: 400px;
+width: 560px;
+float: left;
+}
+.main-list1  .right{
+height: 400px;
+width: 560px;
+float: right;
+}
+.main-list1 .left .pad {
+	background: #fff;
+    text-align: center;
+    margin: 0 20px;
+}
+.main-list1 .left .pad .serveText{
+	color: #333;
+    padding: 34px 0 20px 0;
+    overflow: hidden;
+}
+.main-list1 .left .pad .serveText h3{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.main-list1 .left .pad .serveText p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.main-list1 .left .pad .serveText span{
+    color: #000;
+    padding-bottom: 12px;
+    position: relative;
+}
+.main-list1 .left .pad .serveText span em{
+transition: all .3s linear;
+}
+
+
+.main-list1 .right .pad {
+	background: #fff;
+    text-align: center;
+    margin: 0 20px;
+}
+.main-list1 .right .pad .serveText{
+	color: #333;
+    padding: 34px 0 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+.main-list1 .right .pad .serveText h3{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.main-list1 .right .pad .serveText p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.main-list1 .right .pad .serveText span{
+    color: #000;
+    padding-bottom: 12px;
+    position: relative;
+}
+.main-list1 .right .pad .serveText span em{
+transition: all .3s linear;
+}
+
+
+
+
+
+.main-list2{
+height: 400px;
+margin-top:60px;
+}
+
+.main-list2  .left{
+height: 400px;
+width: 560px;
+float: left;
+}
+.main-list2  .right{
+height: 400px;
+width: 560px;
+float: right;
+}
+.main-list2 .left .pad {
+	background: #fff;
+    text-align: center;
+    margin: 0 20px;
+}
+.main-list2 .left .pad .serveText{
+	color: #333;
+    padding: 34px 0 20px 0;
+    overflow: hidden;
+}
+.main-list2 .left .pad .serveText h3{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.main-list2 .left .pad .serveText p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.main-list2 .left .pad .serveText span{
+    color: #000;
+    padding-bottom: 12px;
+    position: relative;
+}
+.main-list2 .left .pad .serveText span em{
+transition: all .3s linear;
+}
+
+
+.main-list2 .right .pad {
+	background: #fff;
+    text-align: center;
+    margin: 0 20px;
+}
+.main-list2 .right .pad .serveText{
+	color: #333;
+    padding: 34px 0 20px 0;
+    overflow: hidden;
+}
+.main-list2 .right .pad .serveText h3{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.main-list2 .right .pad .serveText p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.main-list2 .right .pad .serveText span{
+    color: #000;
+    padding-bottom: 12px;
+    position: relative;
+}
+.main-list2 .right .pad .serveText span em{
+transition: all .3s linear;
+}
+
+
+.welcome{
+	height: 691px;
+    margin-top: 50px;
+	position: relative;
+	background: url(../images/s-erb.jpg) center no-repeat;
+}
+
+.welcome .welcome-info{
+	text-align: center;
+    width: 780px;
+    height: 330px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -165px 0 0 -390px;
+}
+.welcome .welcome-info h3{
+	font-size: 32px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.maBox{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg.png) repeat;
+    z-index: 9;
+    display: none;
+}	
+.welcome .welcome-info .email{
+	width: 132px;
+    height: 110px;
+    position: absolute;
+    left: 0;
+    bottom: 73px;
+}
+.welcome .welcome-info .email .icon-email{
+	display: block;
+    width: 43px;
+    height: 40px;
+    background: url(../images/icon-email.png) center no-repeat;
+    margin: 0 auto 20px;
+}
+.welcome .welcome-info .email span{
+	font-size: 14px;
+    color: #fff;
+}
+.welcome .welcome-info .tel{
+	width: 132px;
+    height: 110px;
+    position: absolute;
+    left: 230px;
+    bottom: 13px;
+    color: #fff;
+    text-align: center;
+    background: url(../images/icon-tel.png) no-repeat center top;
+    padding-top: 60px;
+    font-size: 14px;
+}
+.welcome .welcome-info .bsc{
+	width: 106px;
+    height: 106px;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 470px;
+    bottom: 73px;
+    cursor: pointer;
+}
+.welcome .welcome-info .bsc .icon-bsc{
+	display: block;
+    width: 54px;
+    height: 38px;
+    background: url(../images/icon-bsc.png) center no-repeat;
+    margin: 0 auto 20px;
+}
+.welcome .welcome-info .wx{
+	width: 106px;
+    height: 106px;
+    position: absolute;
+    right: 0;
+    bottom: 73px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+.welcome .welcome-info .wx .icon-wechat{
+	display: block;
+    width: 54px;
+    height: 38px;
+    background: url(../images/icon-wechat.png) center no-repeat;
+    margin: 0 auto 20px;
+}
+
+
+
+
+
+.main-head div{
+    position: absolute;
+}
+.main-head  .q1{
+    width: 140px;
+    left: 7.3%;
+    top: 65px;
+}
+.main-head  .q2{
+    width: 320px;
+    left: 24%;
+    top: 84px;
+}
+.main-head  .q3{
+    width: 330px;
+    left: 59%;
+    top: 311px;
+}
+.main-head  .q4{
+    width: 340px;
+    left: 63%;
+    bottom: -90px;
+}
+.main-head  .q5{
+    width: 320px;
+    left: 60%;
+    top: -100px;
+}
+.main-head  .q6{
+    width: 360px;
+    left: 76%;
+    top: 60px;
+}
+.main-head  .q7{
+    width: 323px;
+    left: 24%;
+    top: 50%;
+}
+.main-head  .q8{
+    width: 240px;
+    right: 4%;
+    top: 30px;
+}
+.main-head  .q9{
+    width: 355px;
+    right: 30%;
+    bottom: 30px;
+}
+.main-head  .q10{
+    width: 300px;
+    left: 22%;
+    top: 400px;
+}
+@keyframes dx{
+    0% {transform: translate(0px,0px) rotate(0deg);}
+    40% {transform: translate(60px,60px) rotate(10deg);}
+    100% {transform: translate(0px,0px) rotate(0deg);}
+}
+@-webkit-keyframes dx{
+    0% {-webkit-transform: translate(0px,0px) rotate(0deg);}
+    40% {-webkit-transform: translate(60px,60px) rotate(10deg);}
+    100% {-webkit-transform: translate(0px,0px) rotate(0deg);}
+}
+.main-head .q1,.main-head .q5,.main-head .q7,.main-head .q9{animation :dx 12s infinite;-webkit-animation :dx 12s infinite;}
+
+
+@keyframes dx2{
+    0% {transform: translate(0px,0px) rotate(0deg);}
+    70% {transform: translate(-50px,-50px) rotate(25deg);}
+    100% {transform: translate(0px,0px) rotate(0deg);}
+}
+@-webkit-keyframes dx2{
+    0% {-webkit-transform: translate(0px,0px) rotate(0deg);}
+    70% {-webkit-transform: translate(-50px,-50px) rotate(25deg);}
+    100% {-webkit-transform: translate(0px,0px) rotate(0deg);}
+}
+.main-head .q2,.main-head.q6,.main-head .q8,.main-head .q10{animation :dx2 10s infinite;-webkit-animation :dx2 10s infinite;}
+
+
+@keyframes dx3{
+    0% {transform: translate(0px,0px) rotate(0deg);}
+    60% {transform: translate(20px,50px) rotate(10deg);}
+    100% {transform: translate(0px,0px) rotate(0deg);}
+}
+@-webkit-keyframes dx3{
+    0% {-webkit-transform: translate(0px,0px) rotate(0deg);}
+    60% {-webkit-transform: translate(20px,50px) rotate(10deg);}
+    100% {-webkit-transform: translate(0px,0px) rotate(0deg);}
+}
+.main-head .q3,.main-head .q4,.main-head .q6{animation :dx3 10s infinite;-webkit-animation :dx3 10s infinite;}
+
+
+
+.main-list1 .left .pad .serveText span em {
+    display: inline-block;
+    width:0;
+    height: 2px;
+    background: #c70019;
+    transition: all 1s;
+     margin-top: 20px;
+}
+.main-list1 .left .pad .serveText span:hover em {
+    width:10%;
+}
+
+.main-list1 .right .pad .serveText span em {
+    display: inline-block;
+    width:0;
+    height: 2px;
+    background: #c70019;
+    transition: all 1s;
+    margin-top: 20px;
+}
+.main-list1 .right .pad .serveText span:hover em {
+    width:10%;
+}
+
+.main-list2 .left .pad .serveText span em {
+    display: inline-block;
+    width:0;
+    height: 2px;
+    background: #c70019;
+    transition: all 1s;
+    margin-top: 20px;
+}
+.main-list2 .left .pad .serveText span:hover em {
+    width:10%;
+}
+
+.main-list2 .right .pad .serveText span em {
+    display: inline-block;
+    width:0;
+    height: 2px;
+    background: #c70019;
+    transition: all 1s;
+    margin-top: 20px;
+}
+.main-list2 .right .pad .serveText span:hover em {
+    width:10%;
+}
+
+.main-list2 img:hover{
+    transition: all 1s;
+    transform: scale(1.15);
+}
+.main-list1 img:hover{
+    transition: all 1s;
+    transform: scale(1.15);
+}
+
+
+
+
+.welcome .welcome-info h3:hover{
+    transition: all 1s;
+    transform: translateY(50%);
+}
+
+.welcome .welcome-info .email:hover{
+    transition: all 1s;
+    transform: translateY(50%);
+}
+.welcome .welcome-info .tel:hover{
+    transition: all 1s;
+    transform: translateY(50%);
+}
+.welcome .welcome-info .bsc:hover{
+    transition: all 1s;
+    transform: translateY(50%);
+}
+.welcome .welcome-info .wx:hover{
+    transition: all 1s;
+    transform: translateY(50%);
+}
+.maBox img{
+    top:192px;
+    left:530px;
+    position: relative;
+}
+.maBox span{
+    background:black;
+    color: white;
+    display:inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: large;
+    top:-100px;
+    left:840px;
+    position: relative;
+}
+.main-list1 .left p{
+    margin-top: 30px;
+}
+.main-list1 .right p{
+    margin-top: 30px;
+}
+.main-list2 .left p{
+    margin-top: 30px;
+}
+.main-list2 .right p{
+    margin-top: 30px;
+}

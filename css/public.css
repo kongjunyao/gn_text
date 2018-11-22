@@ -1,0 +1,331 @@
+/********************************************
+	creat time : 2018年7月25日20点
+	author:xutongze
+	purpose: reset style
+********************************************
+			  RESET.CSS
+********************************************/
+
+*{margin:0;padding:0}
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', 'Microsoft Yahei', \5b8b\4f53, sans-serif;
+    line-height: 18px;
+}
+/*清除浮动的公共类*/
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{*zoom: 1}
+/* 去除默认li 的左侧样式 */
+li {list-style: none}
+/*解决图片底册有空白缝隙*/
+img {vertical-align: middle}
+.fl{float:left}
+.fr{float:right}
+a {text-decoration: none;color: #333}
+a:hover {color: #e82633}
+em,i {font-style: normal!important}
+input,button {outline: none;border: 0}
+
+/* 文字省略号的类(针对单行文本超出隐藏) */
+.txt-cut{
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/* 提前设置的字体样式; */
+.font12{font-size:12px}
+.font14{font-size:14px}
+
+/* 设置非首页logo样式 */
+.public-notindex {
+    height: 60px!important;
+    line-height: 60px!important;
+}
+
+/*版心*/
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* 设置公有样式 */
+
+
+/* 头部样式 */
+.public-header-wrapper {
+    line-height: 60px;
+    height: 60px;
+    background-color: #000000;
+    position: relative;
+    z-index: 999; /* 设置层级样式最顶级 */
+
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, .4); 
+}
+
+.public-head-cent {
+    height: 60px;
+}
+.public-head-cent h1{
+    float: left;
+    height: 120px;
+    width:120px;
+    line-height: 120px;
+    text-align: center;
+    background-color: #fff;
+    margin:0;
+    font-size: 0;
+    position: absolute;
+    z-index: 10;
+}
+.public-headin-rig {
+    height: 60px;
+    position: relative;
+}
+.public-headin-rig .public-head-nav{
+    float: left;
+}
+.public-headin-rig .public-head-nav > li,
+.public-head-rgtow > div{
+    float: left;
+    margin-right: 48px;
+    height: 60px;
+    position: relative;
+}
+.public-headin-rig .public-head-nav > li > a,
+.public-head-rgtow a {
+    color: #fff;
+    display: block;
+    padding: 0 10px;
+}
+/* 经过的样式 */
+.public-head-nav > li.current em,
+.public-head-nav > li em {
+    display: inline-block;
+    width:0%;
+    height: 2px;
+    background: #c70019;
+    margin-top: -10px;
+    
+    position: absolute;
+    top: 57px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 1s;
+}
+.public-head-nav > li.current em{width:100%}
+.public-head-nav > li:hover em{
+    width:100%;
+}
+/* right-nav */
+.public-head-rgtow {
+    float: left;
+}
+.public-head-rgtow > div{
+    margin-right: 0;
+    margin-left: 48px;
+}
+.public-head-rgtow .language a{
+    display: inline-block;
+    text-decoration: underline;
+}
+.public-hide-menu{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    z-index: 9;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #424242;
+    text-align: center
+}
+.public-hide-menu .public-navin_newnav{
+    height:60px;
+}
+.public-navin_newnav li{
+    display: inline-block;
+    margin-right:10px;
+    background-size: 35px 35px;
+    opacity: .7;
+}
+.public-navin_newnav li a{
+    color: #fff;
+    margin-left: 45px;
+    display: block
+}
+.public-navin_newnav li[class ^= "public-icoa"]{
+    background: url("../images/c1.png") no-repeat 1px center;
+}
+.public-navin_newnav li.public-icoa2{background-image: url("../images/c2.png")}
+.public-navin_newnav li.public-icoa3{background-image: url("../images/c2_new.png")}
+.public-navin_newnav li.public-icoa4{background-image: url("../images/c3.png")}
+
+.public-navin_newnav li[class ^= "publicnav-ico2-a"]{
+    background: url("../images/q1.png") no-repeat 1px center;
+}
+.public-navin_newnav li.publicnav-ico2-a2 {background-image:url("../images/q2.png")}
+.public-navin_newnav li.publicnav-ico2-a3 {background-image:url("../images/c4.png")}
+.public-navin_newnav li.publicnav-ico2-a4 {background-image:url("../images/c5.png")}
+.public-navin_newnav.navontxt a{
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+/*
+    尾部属性 样式
+*/
+.public-footer-wrapper {
+    min-height: 400px;
+    background-color: #f2f2f2 ;
+    border-top: 1px solid transparent;
+}
+.public-footer-headbox {
+    min-height: 320px;
+    margin-top: 40px;
+    padding-top: 10px;
+    background: url("../images/bottomBg.png") no-repeat center bottom;
+    background-size: auto 100%;
+    box-sizing: border-box;
+}
+.public-footer-foot {
+    line-height: 80px;
+    background-color: #000;
+    color: #939393;
+}.public-footer-foot a{color:#939393;}
+.public-footer-headbox .fl dl{
+    float: left;
+    height: 100%;
+    margin-right: 40px;
+}
+.public-footer-headbox .fl dl dt{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.public-footer-headbox .fl dl dd{padding-bottom: 16px;}
+.public-footer-headbox .fl dl dd a{color: #333}
+.public-footer-headbox .fl dd:hover a{text-decoration: underline;}
+.public-footer-headbox .fr .lines_topul{height: 74px;display: inline-block;}
+.public-footer-headbox .fr .lines_topul li{
+    float: left;
+    height: 74px;
+    width:70px;
+    text-align:center;
+    margin-left:50px;
+    background: url("../images/tianmao.png") no-repeat center 0;
+    background-size: 43px 43px;
+}
+.public-footer-headbox .fr .lines_topul li:nth-child(2){
+    background-image: url("../images/jingdong.png");
+}
+.public-footer-headbox .fr .lines_topul li:nth-child(3){
+    background-image: url("../images/kefu.png");
+}
+.public-footer-headbox .fr .lines_topul li:nth-child(4){
+    background-image: url("../images/fangwei.png");
+}
+.public-footer-headbox .fr .lines_topul li:nth-child(5){
+    background-image: url("../images/dianpu.png");
+}
+.public-footer-headbox .fr .lines_topul li a{
+    display: inline-block;
+    padding-top: 50px;
+}
+.line2 {
+    text-align: right;
+    line-height: 30px;
+    margin-top: 16px;
+    font-size: 18;
+}
+.line2.icos_xin a{
+    display: inline-block;
+    padding-left: 20px;
+    background: url("../images/aixin.png") no-repeat center left;
+}
+.public-footer-headbox .fr .fr {margin-top: 30px;}
+.public-footer-headbox .fr .fr li{
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.xnavfixed {
+    position: absolute;
+    z-index: 9;
+    top: -155px;
+    right: 0;
+    width:420px;
+    height: 140px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: none;
+    opacity: 0;
+    transition: all 2s;
+}
+.xnavfixed  img{float: left;height: 140px}
+.public-footer-headbox .fr .fr li:nth-child(2):hover div{display:block;opacity: 1;}
+
+/* 悬浮黑色框框 */
+.index-fixed_wraps {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    display: none;
+}
+.index-fixed-inwrap {
+    width:515px;
+    height: 358px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.index-fixed-inwrap i{
+    display: block;
+    height: 40px;
+    padding-bottom:20px;
+    text-align: center;
+}
+.index-fixed-inwrap i img{cursor: pointer; transition:all .8s;}
+.index-fixed-inwrap i img:hover{
+    transform: rotate(-340deg);
+}
+.index-fixed-search {
+    height: 60px;
+    border-radius: 10px;
+    line-height: 60px;
+    overflow: hidden
+}
+.index-fixed-search input{
+    height: 60px;
+    width: 100%;
+    color: #555;
+    background: #fff url(../images/i-searchBig.png) 15px center no-repeat;
+    text-indent: 40px;
+    font-size: 18px;
+}
+.index-fixed-lists {
+    width: 100%;
+    margin-top: 10px;
+}
+.index-fixed-lists li{
+    float: left;
+    width: 45%;
+    line-height: 50px;
+    margin-right: 5%;
+    border-bottom: 1px solid #fff;
+}.index-fixed-lists li a{color: #fff}

@@ -1,0 +1,209 @@
+body{
+	overflow-x:hidden;
+}
+.crumbs-nav {
+	height: 60px;
+	line-height: 60px;
+	
+}
+.pen-pic {
+	width: 100%;
+	height: 700px;
+	background:  url(../images/w-banner.jpg) center 0 no-repeat;
+	text-align: center;
+	overflow: hidden;
+	line-height: 700px;
+}
+.w1200 {
+	width: 1200px;
+	margin: 0 auto;
+}
+.public-head-cent h1 {
+	height: 60px;
+	line-height: 60px;
+}
+/*banner区域*/
+.t-cont {
+	display: inline-block;
+	vertical-align: middle;
+}
+.t-cont .p1,.p2,.p3 {
+	height: 30px;
+	line-height: 30px;
+}
+
+.t-cont .p1 {
+	font-size: 35px;
+	line-height: 35px;
+	margin-bottom: 30px;
+}
+
+
+/*m-text*/
+.m-text {
+  height: 400px;
+  width: 100%;
+  line-height: 400px;
+  text-align: center;
+}
+.m-text .m-b{
+   display: inline-block;
+   vertical-align: middle;
+}
+.m-text .m-b .p4 {
+   font-size: 26px;
+   line-height: 26px;
+   margin-bottom: 20px;
+}
+.m-text .m-b .p5 {
+	height: 20px;
+	line-height: 20px;
+}
+
+/*感受文化*/
+.feel-c {
+	width: 100%;
+	height: 350px;
+	background:  url(../images/ganshou.png) center 0 no-repeat;
+	position: relative;
+	 transition: all 1s;
+	
+}
+.feel-c:hover {
+	 transform: scale(1.1,1.1);
+}
+.feel-c .cul {
+	width: 200px;
+	height: 54px;
+	position: absolute;
+	left: 250px;
+	top: 50%;
+	margin-top: -27px;
+}
+.feel-c .cul h3 {
+	line-height: 50px;
+	text-align: center;
+}
+
+/*创新发展*/
+.create-pgs {
+	width: 100%;
+	height: 350px;
+	background:  url(../images/chuangxin.png) center 0 no-repeat;
+	position: relative;
+	transition: all 1s;
+	
+}
+.create-pgs:hover {
+	transform: scale(1.1,1.1);
+}
+.create-pgs .progress {
+	width: 200px;
+	height: 54px;
+	position: absolute;
+	right: 250px;
+	top: 50%;
+	margin-top: -27px;
+}
+.create-pgs .progress h3 {
+	line-height: 50px;
+	text-align: center;
+}
+
+/*壮大队伍*/
+.expand-troop {
+	width: 100%;
+	height: 350px;
+	background:  url(../images/zhuangda.png) center 0 no-repeat;
+	position: relative;
+	transition: all 1s;
+	
+}
+.expand-troop:hover {
+	transform: scale(1.1,1.1);
+}
+.expand-troop .troops {
+	width: 200px;
+	height: 54px;
+	position: absolute;
+	left: 250px;
+	top: 50%;
+	margin-top: -27px;
+}
+.expand-troop .troops h3 {
+	line-height: 50px;
+	text-align: center;
+}
+
+
+/*阵地建设*/
+.battle-field {
+	width: 100%;
+	height: 350px;
+	background:  url(../images/jianshe.png) center 0 no-repeat;
+	position: relative;
+	transition: all 1s;
+	
+}
+.battle-field:hover {
+	transform: scale(1.1,1.1);
+}
+.battle-field .build {
+	width: 200px;
+	height: 54px;
+	position: absolute;
+	right: 250px;
+	top: 50%;
+	margin-top: -27px;
+}
+.battle-field .build h3 {
+	line-height: 50px;
+	text-align: center;
+}
+
+
+/*爱心工程*/
+.love-project {
+  height: 400px;
+  width: 100%;
+  line-height: 400px;
+  text-align: center;
+}
+.love-project .l-p{
+   display: inline-block;
+   vertical-align: middle;
+}
+.love-project .l-p .p6 {
+   font-size: 26px;
+   line-height: 26px;
+   margin-bottom: 20px;
+}
+.love-project .l-p .p7 {
+	height: 20px;
+	line-height: 20px;
+}
+
+
+
+/*图片循环*/
+.pic-cont {
+	width: 1343px;
+	height: 300px;
+	/*background-color: blue;*/
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.pic-cont .pics li {
+	float: left;
+	margin: 0 10px;
+}
+.pic-cont .pics li img {
+	width: 300px;
+	height: 300px;
+}
+
+.pic-cont .pics {
+  width: 3840px;
+  position: absolute;
+}

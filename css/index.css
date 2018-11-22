@@ -1,0 +1,176 @@
+﻿/* 
+  create Time: 20180904;
+  author: xutonze;
+*/
+
+/* banner Wrapper */
+.index-banner-wrapper {
+  width: 100%;
+  /* 动态设置高度 */
+  overflow: hidden;
+  /* background: green;  temporary bgColor... */
+  position: relative;
+}
+
+.index-banner-imagebox li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none
+}
+.index-banner-imagebox video{
+  /* height: 130%; */
+  width:140%;
+}
+.index-banner-imagebox li img{width:100%;height: 100%}
+.banner-textcent {
+  text-align: center;
+  width:100%;
+  position: absolute;
+  top: 40%;
+  z-index: 8;
+  transform: translateY(-50%);
+  color: #fff;
+  /*overflow: hidden;*/
+}
+.banner-textcent h4{
+  font-size: 24px;
+  font-weight: lighter;
+margin-bottom:20px;
+}
+.banner-textcent h2{
+  font-size: 50px;
+  padding: 18px 0;
+  line-height: 100%;
+}
+.banner-textcent a{
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 22px;
+  padding:5px 20px;
+margin-top:25px;
+}
+
+.index-banner-wrapper ol{
+  line-height: 4px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 9;
+  transform: translateX(-50%);
+}
+.index-banner-wrapper ol li{
+  display: inline-block;
+  vertical-align: middle;  /* 行内样式会有默认的一些样式 */ 
+  width: 26px;
+  height: 4px;
+  margin:0 4px;
+  background: #fff;
+  filter:alpha(opacity = 80);
+  opacity: .8; /* 设置透明属性 */
+
+  cursor: pointer;
+}
+.index-banner-wrapper ol li.current {
+  background: #c70019;
+  opacity: 1;
+}
+
+/* index list Ul Wrapper */
+.index-listwrapper {
+  padding: 60px 0;
+  text-align: center;
+}
+.index-listwrapper ul{display: inline-block}
+.index-listwrapper li{float: left}
+.index-listwrapper li a{
+  display: block;
+  height: auto;
+  padding: 0 50px;
+  color: #333;
+}
+.index-listwrapper li p{
+  padding-top: 6px;
+}
+.index-listwrapper li img{
+  filter:alpha(opacity = 80);
+  opacity: 0.8;
+  transition:  all ease .6s;
+}
+.index-listwrapper li:hover img{
+  filter: alpha(opacity = 100);
+  opacity: 1;
+}
+
+.index-switch-wrapper {
+  width: 100%;
+}
+.index-switch-wrapper > div{
+  width: 50%;
+  float: left;
+  cursor: pointer;
+}
+.index-switch-wrapper .index-switch-leftw > div{
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.index-switch-wrapper .index-switch-rightw > div{
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.index-switch-wrapper video{width:100%}
+.index-switch-wrapper .index-switch-rightw img{
+  width: 100%;
+  transition: all .6s;
+}
+.index-switch-imgs {
+  position: relative;
+}
+.index-switch-imgs .indwitch_box {
+  height: 30px;
+  line-height:30px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+}
+.index-switch-imgs .indwitch_box img{
+  float: left;
+  width:30px;height:30px;
+}
+.index-switch-imgs .indwitch_box i{
+  float: left;
+  width:2px;
+  height: 26px;
+  margin: 2px 8px 0;
+  background: #000;
+}
+.witch-imgs-opposite {color: #fff}
+.witch-imgs-opposite i{background: #fff!important}
+
+/* three wrapper */
+.index-three-wrapper  {
+  min-height: 100px;
+  margin: 15px 0;
+}
+.index-three-wrapper > div{
+  width: 32%;
+  height: 370px;
+  overflow: hidden;
+  cursor:pointer;
+}
+.index-three-wrapper > div img{
+  transition: all 0.6s;
+}
+.index-switch-rightw{overflow: hidden}
+.index-three-wrapper > div img:hover,
+.index-switch-rightw:hover .witch-imgs-opposite img{
+  transform: scale(1.1);
+}
+.indexpic2-1 {
+  margin: 0 2%;
+}
